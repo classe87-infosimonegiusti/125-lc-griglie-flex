@@ -1,0 +1,107 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Debug */
+
+.debug header {
+    background-color: violet;
+    height: 200px;
+}
+
+.debug nav {
+    background: cyan;
+}
+
+.debug main {
+    background-color: pink;
+}
+
+/*
+    .debug .flex-container {
+        height: 400px;
+    }
+*/
+
+.debug li {
+    background-color: yellow;
+}
+
+.debug a {
+    background: red;
+    padding: 10px;
+    display: inline-block;
+    width: 100%;
+}
+
+.debug section {
+    border: dashed 5px #fff;
+}
+
+.debug footer {
+    background-color: grey;
+    height: 200px;
+}
+
+.debug aside {
+    background-color: yellow;
+}
+
+
+/* Regole di CSS */
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+header {
+    margin-bottom: 20px;
+}
+footer {
+    margin-top: 20px;
+}
+nav {
+    min-height: 200px;
+    padding: 20px;
+    width: 20%;
+}
+aside {
+    width: 20%;
+    min-height: 300px;
+    padding: 15px;
+}
+main {
+    min-height: 300px;
+    padding: 15px;
+    width: 58%;
+}
+
+a:active {
+    color:white;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    margin: 10px 0px;
+}
+
+section {
+    padding: 15px;
+    margin: 20px 0px;
+}
+
+.ads {
+    width: 100%;
+}
+
+.modulo {
+    border: dotted 3px red;
+    padding: 15px;
+    margin: 15px 0px;
+}
